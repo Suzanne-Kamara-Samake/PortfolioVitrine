@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+:root {
+    --white: hsla(0, 0%, 100%, 1);
+    --black: hsla(0, 0%, 0%, 1);
+    --dark-dark-blue: hsla(216, 92%, 19%, 1);
+    --medium-dark-blue:hsla(226, 70%, 30%, 1);
+    --dark-blue: hsla(216, 71%, 36%, 1);
+    --light-blue:hsla(209, 32%, 86%, 1);
+    --yellow:hsla(49, 97%, 55%, 1);
+    --light-yellow:hsla(49, 68%, 89%, 1);
+    --red:hsla(358, 76%, 42%, 1);
+    --medium-red:hsla(358, 76%, 37%, 1);
+    --dark-red:hsla(16, 94%, 21%, 1);
+    --pink:hsla(334, 91%, 53%, 1);
+    --light-pink:hsla(323, 90%, 67%, 1);
+    --green:hsla(128, 75%, 25%, 1);
+    --light-green:hsla(60, 66%, 60%, 1);
+    --ff-defonte-reduced: 'DeFonte Reduced', sans-serif;
+    --ff-defonte-reduced-demiGras: 'DeFonte Reduced DemiGras', sans-serif;
+    --ff-kristina-bold: 'Kristina Bold', serif;
+    --ff-defonte-reduced-leger: 'DeFonte Reduced Leger', sans-serif;
+    --bg-about: url('/PortfolioVitrine/public/Contact/BgContact.svg');
+    
+}
+@font-face {
+  font-family: "DeFonte Reduced DemiGras"; /* set name */
+  src: url('/fonts/DeFonte\ reduced\ DemiGras.ttf') format('truetype'); /* set path */
+}
+
+@font-face {
+  font-family: "DeFonte Reduced"; /* set name */
+  src: url('/fonts/DeFonte\ reduced\ Normale.ttf') format('truetype'); /* set path */
+}
+@font-face {
+  font-family: "DeFonte Reduced Leger"; /* set name */
+  src: url('/fonts/DeFonte\ reduced\ Leger.ttf') format('truetype'); /* set path */       
+}
+@font-face {
+  font-family: "Kristina Bold"; /* set name */
+  src: url('/fonts/Kristina.Bold.otf') format('opentype'); /* set path */
+}
+
+
+@theme {
+    --color-white:var(--white);
+    --color-black:var(--black);
+    --color-dark-dark-blue:var(--dark-dark-blue);
+    --color-dark-blue:var(--dark-blue);
+    --color-light-blue:var(--light-blue);
+    --color-yellow:var(--yellow);
+    --color-light-yellow:var(--light-yellow);
+    --color-red:var(--red);
+    --color-medium-red:var(--medium-red);
+    --color-dark-red:var(--dark-red);
+    --color-pink:var(--pink);
+    --color-light-pink:var(--light-pink);
+    --color-green:var(--green);
+    --color-light-green:var(--light-green);
+
+}
+@utility body {
+    /* background-color: var(--dark-dark-blue); */
+    
+font-family: "DeFonte Reduced";
+width:100%;
+}
+@utility demiGrasText {
+    font-family: "DeFonte Reduced DemiGras";
+    
+}
+@utility legerText {
+    font-family: "DeFonte Reduced Leger";
+    
+}
+@utility defonteText {
+    font-family: "DeFonte Reduced";
+    
+}
+@utility kristinaBoldText {
+    font-family: "Kristina Bold";
+    
+}
+@utility encodeSansSCText {
+    font-family: "Encode Sans SC", sans-serif;
+    
+}
+
+@utility blendMode {
+  width:288px ;
+  height:123px ;
+  background:url("../../../public/AboutMe/image 34.svg"), ;
+  background-blend-mode: color-burn;
+}
+
+#dots{
+  background-image: url("../../../public/AboutMe/Dots.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#Stripes{
+  background-image: url("../../../public/AboutMe/Stripes.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#apples{
+  background-image: url("../../../public/AboutMe/apples.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#Me-Me-Me{
+  background-image: url("../../../public/AboutMe/myPicture.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@utility bgContact {
+  background-image: url("../../../public/Contact/BgContact.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#contact{
+  display: grid ;
+  grid-template-columns: repeat(auto-fit, minmax(208px, 1fr));
+  gap: 32px ;
+}
+
+@utility openMenu{
+  
+    transform: translateX(0);
+  
+  #nav-overlay{
+    opacity: 1;
+    pointer-events: auto;
+  },
+  #burger-top{
+    transform: rotate(45deg) translateY(8px);
+  },
+  #burger-middle{
+    opacity: 0;
+  },
+  #burger-bottom{
+    transform: rotate(-45deg) translateY(-8px); 
+  }
+}
+#Ladybug{
+  background-image: linear-gradient(hsla(161, 87%, 12%, 0.457), hsla(159, 85%, 10%, 0.402)), url("../../../public/Construction/ladybug.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
