@@ -6,7 +6,7 @@ M.data = [
   {
     projectTitle: "One page - Esthero, Breath from Another",
     titleColor: "pink",
-    imageProject: "/public/Project/bfa.svg",
+    imageProject: "/Project/bfa.svg",
     tagBgColor: "light-blue",
     tagTextcolor: "white",
     tag: "web design • UX/UI • personnal • web design • UX/UI • personnal",
@@ -16,7 +16,7 @@ M.data = [
   {
     projectTitle: "One page - Klimt, Adele Bloch Bauer",
     titleColor: "pink",
-    imageProject: "/public/Project/bfa.svg",
+    imageProject: "/Project/bfa.svg",
     tagBgColor: "pink",
     tagTextcolor: "white",
     tag: "web design • UX/UI • personnal • web design • UX/UI • academic",
@@ -26,7 +26,7 @@ M.data = [
   {
     projectTitle: "Site e-commerce - Evisu",
     titleColor: "pink",
-    imageProject: "/public/Project/evisu.svg",
+    imageProject: "/Project/evisu.svg",
     tagBgColor: "orange",
     tagTextcolor: "white",
     tag: "web design • UX/UI • personnal • web design • UX/UI • personnal",
@@ -36,7 +36,7 @@ M.data = [
   {
     projectTitle: "site de streaming fictif",
     titleColor: "pink",
-    imageProject: "/public/Project/stream.svg",
+    imageProject: "/Project/stream.svg",
     tagBgColor: "light-blue",
     tagTextcolor: "white",
     tag: "web design • UX/UI • personnal • web design • UX/UI • personnal",
@@ -46,7 +46,7 @@ M.data = [
   {
     projectTitle: "cartes de mouvement artistique",
     titleColor: "pink",
-    imageProject: "/public/Project/card.svg",
+    imageProject: "/Project/card.svg",
     tagBgColor: "light-blue",
     tagTextcolor: "white",
     tag: "web design • UX/UI • personnal • web design • UX/UI • personnal",
@@ -56,7 +56,7 @@ M.data = [
   {
     projectTitle: "Portfolio de compétences",
     titleColor: "pink",
-    imageProject: "/public/Project/portfolio.svg",
+    imageProject: "/Project/portfolio.svg",
     tagBgColor: "light-blue",
     tagTextcolor: "white",
     tag: "web design • UX/UI • personnal • web design • UX/UI • personnal",
@@ -66,7 +66,7 @@ M.data = [
   {
     projectTitle: "One page - Olive Oil",
     titleColor: "pink",
-    imageProject: "/public/Project/oliveoil.svg",
+    imageProject: "/Project/oliveoil.svg",
     tagBgColor: "light-blue",
     tagTextcolor: "white",
     tag: "web design • UX/UI • personnal • web design • UX/UI • personnal",
@@ -76,7 +76,7 @@ M.data = [
   {
     projectTitle: "application - Hemera",
     titleColor: "pink",
-    imageProject: "/public/Project/hemera.svg",
+    imageProject: "/Project/hemera.svg",
     tagBgColor: "light-blue",
     tagTextcolor: "white",
     tag: "web design • UX/UI • personnal • web design • UX/UI • personnal",
